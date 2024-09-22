@@ -1,0 +1,49 @@
+.compart {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  padding: 20px;
+  background-color: #000; /* Optional: Set a background color */
+  position: relative;
+}
+
+.close-button {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: none;
+  border: none;
+  color: white;
+  font-size: 2rem;
+  cursor: pointer;
+  z-index: 10; /* Ensure the button is on top */
+}
+
+.text-container {
+  flex: 1;
+  color: white;
+  padding: 20px;
+}
+
+.name {
+  font-size: 2.5rem; /* Adjust size as needed */
+  margin-bottom: 20px;
+}
+
+.description {
+  font-size: 1.5rem; /* Adjust size as needed */
+  margin-bottom: 10px;
+}
+
+.price, .rating, .size {
+  font-size: 1.2rem; /* Adjust size as needed */
+  margin-bottom: 10px;
+}
+
+.canvas-container {
+  flex: 1;
+  position: relative;
+  width: 50%;
+  height: 100%;
+}
