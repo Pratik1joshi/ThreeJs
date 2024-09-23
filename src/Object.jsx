@@ -17,11 +17,11 @@ const Object = ({ setShowDiv, setProductDetails }) => {
   ])
 
   const products = [
-    { id: 1, name: 'Shoe 1',image: './shoe1.png', description: 'Description for shoe 1' },
-    { id: 2, name: 'Shoe 2',image: './shoe2.png', description: 'Description for shoe 2' },
-    { id: 3, name: 'Shoe 3',image: './shoe3.png', description: 'Description for shoe 3' },
-    { id: 4, name: 'Shoe 4',image: './shoe4.jpg', description: 'Description for shoe 4' },
-    { id: 5, name: 'Shoe 5',image: './shoe5.png', description: 'Description for shoe 5' }
+    { id: 1, name: 'Shoe 1',image: './shoe1.png', price: 59.99, description: 'Step up your game with the Urban Runner Sneakers, designed for comfort and style. Featuring a lightweight mesh upper and a cushioned sole, these sneakers are perfect for daily wear or casual outings. Available in a variety of colors, they offer breathability and all-day comfort.' },
+    { id: 2, name: 'Shoe 2',image: './shoe2.png', price: 89.99, description: 'Elevate your formal look with these Classic Leather Oxfords. Crafted from premium leather with a timeless design, these shoes are perfect for business meetings and special occasions. The padded insole ensures maximum comfort, making them an ideal choice for long hours of wear.' },
+    { id: 3, name: 'Shoe 3',image: './shoe3.png', price: 99.99, description: 'Conquer the outdoors with the Adventure Hiking Boots. Built for rugged terrain, these boots feature a durable waterproof exterior, reinforced toe, and extra grip soles. Perfect for hiking, camping, and outdoor activities, they provide stability and protection in any weather condition.' },
+    { id: 4, name: 'Shoe 4',image: './shoe4.jpg', price: 69.99, description: 'Stay stylish and comfortable with the Modern Slip-On Loafers. These versatile shoes are designed with a soft, flexible sole and a sleek leather finish. Easy to wear and perfect for both casual and semi-formal settings, they offer an effortless blend of sophistication and ease.' },
+    { id: 5, name: 'Shoe 5',image: './shoe5.png', price: 79.99, description: 'Gear up for your workout with the Athletic Performance Trainers. Designed with advanced cushioning technology and breathable mesh fabric, these trainers ensure optimal support and comfort during intense activities. The non-slip outsole provides excellent traction for running, gym sessions, or any sport.' }
   ]
 
   useFrame((state, delta) => {
