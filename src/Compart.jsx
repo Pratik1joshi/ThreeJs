@@ -57,6 +57,7 @@ const Compart = ({ productDetails, onClose }) => {
         <p className='price'>Price: ${productDetails.price}</p>
         <p className='rating'>Rating: {productDetails.rating} / 5</p>
         <p className='size'>Size: {productDetails.size}</p>
+        <button className='px-6 py-2 bg-red-500'>Add to cart</button>
       </div>
       <div ref={canvasContainerRef} className='canvas-container'>
         <Canvas flat camera={{ fov: 35 }} style={{ position: 'relative', width: '100%', height: '100%' }}>
